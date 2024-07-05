@@ -1,5 +1,48 @@
 ﻿@page "/"
+@using BasicosBlazor.Library
 
 <PageTitle>Carrera</PageTitle>
 
 <h1>Pagina Carrera</h1>
+
+@if(listacarrera is null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id Carrera</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CarreraCLS carrera in listacarrera)
+            {
+                <tr>
+                    <td>@carrera.idcarrera</td>
+                    <td>@carrera.nombrecarrera</td>
+                    <td>@carrera.descripcioncarrera</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    public List<CarreraCLS> listacarrera { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        listacarrera = new List<CarreraCLS>();
+
+        listacarrera.Add(new CarreraCLS { idcarrera = 1, nombrecarrera = "Ingenieria de Sistemas", descripcioncarrera="Desc 1" });
+        listacarrera.Add(new CarreraCLS { idcarrera = 2, nombrecarrera = "Ingenieria de Software", descripcioncarrera = "Desc 2" });
+        listacarrera.Add(new CarreraCLS { idcarrera = 3, nombrecarrera = "Ingenieria de Redes", descripcioncarrera = "Desc 3" });
+
+        await Task.CompletedTask;
+    }
+}

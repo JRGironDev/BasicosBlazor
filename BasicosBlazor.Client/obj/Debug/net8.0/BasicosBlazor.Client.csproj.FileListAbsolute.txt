@@ -1030,3 +1030,12 @@
 /Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/obj/Debug/net8.0/refint/BasicosBlazor.Client.dll
 /Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/obj/Debug/net8.0/BasicosBlazor.Client.pdb
 /Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/obj/Debug/net8.0/ref/BasicosBlazor.Client.dll
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/bin/Debug/net8.0/wwwroot/_framework/BasicosBlazor.Library.pdb
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/bin/Debug/net8.0/wwwroot/_framework/BasicosBlazor.Library.wasm
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/bin/Debug/net8.0/wwwroot/_framework/BasicosBlazor.Library.pdb.gz
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/bin/Debug/net8.0/wwwroot/_framework/BasicosBlazor.Library.wasm.gz
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/bin/Debug/net8.0/BasicosBlazor.Library.dll
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/bin/Debug/net8.0/BasicosBlazor.Library.pdb
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/obj/Debug/net8.0/webcil/BasicosBlazor.Library.wasm
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/obj/Debug/net8.0/compressed/pgbk45rxtt.gz
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/obj/Debug/net8.0/compressed/828n1zkpb3.gz

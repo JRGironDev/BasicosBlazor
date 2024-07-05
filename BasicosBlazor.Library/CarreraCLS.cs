@@ -2,7 +2,7 @@
 
 public class CarreraCLS
 {
-    public int idCarrera { get; set; }
+    public int idcarrera { get; set; }
 
     public string nombrecarrera { get; set; }
 

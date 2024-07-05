@@ -1,0 +1,12 @@
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/bin/Debug/net8.0/BasicosBlazor.Library.deps.json
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/bin/Debug/net8.0/BasicosBlazor.Library.dll
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/bin/Debug/net8.0/BasicosBlazor.Library.pdb
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/BasicosBlazor.Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/BasicosBlazor.Library.AssemblyInfoInputs.cache
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/BasicosBlazor.Library.AssemblyInfo.cs
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/BasicosBlazor.Library.csproj.CoreCompileInputs.cache
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/BasicosBlazor.Library.sourcelink.json
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/BasicosBlazor.Library.dll
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/refint/BasicosBlazor.Library.dll
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/BasicosBlazor.Library.pdb
+/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Library/obj/Debug/net8.0/ref/BasicosBlazor.Library.dll
