@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/obj/Debug/net8.0/compressed/il2x4gunah.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/obj/Debug/net8.0/scopedcss/bundle/BasicosBlazor.Client.styles.css",
+      "PackagePath": "staticwebassets/BasicosBlazor.Client.styles.css"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/josequinonez/C#/Blazor/BasicosBlazor/BasicosBlazor.Client/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BasicosBlazor.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BasicosBlazor.Client.props",
+      "PackagePath": "build\\BasicosBlazor.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BasicosBlazor.Client.props",
+      "PackagePath": "buildMultiTargeting\\BasicosBlazor.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BasicosBlazor.Client.props",
+      "PackagePath": "buildTransitive\\BasicosBlazor.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -26,12 +26,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Pages/CarreraPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FycmVyYVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+[/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Pages/CursoPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3Vyc29QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Pages/PersonaPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uYVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Pages/Weather.razor]
