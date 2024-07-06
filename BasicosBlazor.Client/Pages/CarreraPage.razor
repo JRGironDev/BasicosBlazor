@@ -5,7 +5,7 @@
 
 <h1>Pagina Carrera</h1>
 
-<EditForm Model="@oCarreraCLS" OnValidSubmit="@guardar">
+<EditForm Class="form-group" Model="@oCarreraCLS" OnValidSubmit="@guardar">
     <DataAnnotationsValidator />
     <div class="mt-3">
         <label>Ingrese Id</label>
@@ -51,6 +51,9 @@ else
                     <td>@carrera.idcarrera</td>
                     <td>@carrera.nombrecarrera</td>
                     <td>@carrera.descripcioncarrera</td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="(()=> eliminar(carrera.idcarrera))">Eliminar</button>
+                    </td>
                 </tr>
             }
         </tbody>
@@ -92,5 +95,16 @@ else
         listacarrera.Add(oCarreraCLS);
 
         oCarreraCLS = new CarreraCLS();
+
+        await Task.CompletedTask;
+    }
+
+    public async Task eliminar(int idcarrera)
+    {
+        var data = listacarrera.Where(p => p.idcarrera != idcarrera).ToList();
+
+        listacarrera = data;
+
+        await Task.CompletedTask;
     }
 }
