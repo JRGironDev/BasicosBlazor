@@ -6,7 +6,7 @@
 
 <h1>Pagina Carrera</h1>
 
-<FormCarrera />
+<FormCarrera OnGuardar="guardar" />
 
 @if (listacarrera is null)
 {
@@ -36,10 +36,10 @@ else
             }
         </tbody>
     </table>
-}   
+}
 
 @code {
-    //public CarreraCLS oCarreraCLS { get; set; } =  new CarreraCLS();
+    //public CarreraCLS oCarreraCLS { get; set; } = new CarreraCLS();
     public List<CarreraCLS> listacarrera { get; set; }
 
     protected override async Task OnInitializedAsync()
@@ -68,9 +68,9 @@ else
         await Task.CompletedTask;
     }
 
-    public async Task guardar()
+    public async Task guardar(CarreraCLS oCarreraCLS)
     {
-        //listacarrera.Add(oCarreraCLS);
+        listacarrera.Add(oCarreraCLS);
         //oCarreraCLS = new CarreraCLS();
 
         await Task.CompletedTask;

@@ -27,14 +27,16 @@
 </EditForm>
 
 @code {
+    [Parameter]
+    public EventCallback<CarreraCLS> OnGuardar { get; set; }
+
     public CarreraCLS oCarreraCLS { get; set; } =  new CarreraCLS();
 
     public async Task guardar()
     {
         //listacarrera.Add(oCarreraCLS);
+        await OnGuardar.InvokeAsync(oCarreraCLS);
 
         oCarreraCLS = new CarreraCLS();
-
-        await Task.CompletedTask;
     }
 }

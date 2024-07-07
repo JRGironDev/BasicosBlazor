@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasicosBlazor.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b056dd1c217cc6818b9d54d95d1d9d573abebbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4675cb56f0c94a8fe96e299eda1ccef150866632")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasicosBlazor.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasicosBlazor.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
