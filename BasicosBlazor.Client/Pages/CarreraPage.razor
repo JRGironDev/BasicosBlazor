@@ -1,34 +1,12 @@
 ﻿@page "/"
+@using BasicosBlazor.Client.Component.Carrera
 @using BasicosBlazor.Library
 
 <PageTitle>Carrera</PageTitle>
 
 <h1>Pagina Carrera</h1>
 
-<EditForm Class="form-group" Model="@oCarreraCLS" OnValidSubmit="@guardar">
-    <DataAnnotationsValidator />
-    <div class="mt-3">
-        <label>Ingrese Id</label>
-        <InputNumber class="form-control" @bind-Value="oCarreraCLS.idcarrera" />
-    </div>
-
-    <div class="mt-3">
-        <label>Ingrese Nombre</label>
-        <InputText class="form-control" @bind-Value="@oCarreraCLS.nombrecarrera" />
-        <ValidationMessage For="@(() => oCarreraCLS.nombrecarrera)" />
-    </div>
-
-    <div class="mt-3">
-        <label>Ingrese Descripcion</label>
-        <InputTextArea class="form-control" @bind-Value="@oCarreraCLS.descripcioncarrera"/>
-        <ValidationMessage For="@(() => oCarreraCLS.descripcioncarrera)" />
-    </div>
-
-    <div class="mt-3">
-        <button class="btn btn-primary" type="submit">Guardar</button>
-    </div>
-
-</EditForm>
+<FormCarrera />
 
 @if (listacarrera is null)
 {
@@ -58,10 +36,10 @@ else
             }
         </tbody>
     </table>
-}
+}   
 
 @code {
-    public CarreraCLS oCarreraCLS { get; set; } =  new CarreraCLS();
+    //public CarreraCLS oCarreraCLS { get; set; } =  new CarreraCLS();
     public List<CarreraCLS> listacarrera { get; set; }
 
     protected override async Task OnInitializedAsync()
@@ -92,9 +70,8 @@ else
 
     public async Task guardar()
     {
-        listacarrera.Add(oCarreraCLS);
-
-        oCarreraCLS = new CarreraCLS();
+        //listacarrera.Add(oCarreraCLS);
+        //oCarreraCLS = new CarreraCLS();
 
         await Task.CompletedTask;
     }
