@@ -34,6 +34,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50L0NhcnJlcmEvTGlzdENhcnJlcmEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Component/Curso/FormCurso.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50L0N1cnNvL0Zvcm1DdXJzby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Component/Curso/ListCurso.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50L0N1cnNvL0xpc3RDdXJzby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josequinonez/C\#/Blazor/BasicosBlazor/BasicosBlazor.Client/Pages/CarreraPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FycmVyYVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
