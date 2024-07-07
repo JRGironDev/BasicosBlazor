@@ -1,5 +1,31 @@
-﻿<h3>FormCurso</h3>
+﻿@using BasicosBlazor.Library
+
+<EditForm Class="form-group" Model="@oCursoCLS" OnInvalidSubmit="guardar">
+    <div class="mt-3">
+        <label>Ingrese Id</label>
+        <InputNumber class="form-control" @bind-Value="oCursoCLS.idcurso" />
+    </div>
+
+    <div class="mt-3">
+        <label>Ingrese Nombre</label>
+        <InputText class="form-control" @bind-Value="oCursoCLS.nombrecurso" />
+    </div>
+
+    <div class="mt-3">
+        <label>Número de créditos</label>
+        <InputNumber class="form-control" @bind-Value="oCursoCLS.numerocreditos" />
+    </div>
+
+    <div class="mt-3">
+        <button class="btn btn-primary" type="submit">Guardar</button>
+    </div>
+</EditForm>
 
 @code {
+    public CursoCLS oCursoCLS { get; set; } = new CursoCLS();
 
+    public async void guardar()
+    {
+        await Task.CompletedTask;
+    }
 }

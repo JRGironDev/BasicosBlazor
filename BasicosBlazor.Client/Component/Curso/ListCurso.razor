@@ -1,1 +1,48 @@
-﻿<h3>ListCurso</h3>
+﻿@using BasicosBlazor.Library
+
+@if(lista is null)
+{
+    <h1>Cargando...</h1>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id Curso</th>
+                <th>Nombre</th>
+                <th>Número de Créditos</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CursoCLS curso in lista)
+            {
+                <tr>
+                    <td>@curso.idcurso</td>
+                    <td>@curso.nombrecurso</td>
+                    <td>@curso.numerocreditos</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+@code {
+    public List<CursoCLS> lista { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        lista = new List<CursoCLS>();
+
+        lista.Add(new CursoCLS
+        {
+            idcurso = 1,
+            nombrecurso = "Curso 1",
+            numerocreditos = 4
+        });
+
+        await Task.CompletedTask;
+    }
+
+}
