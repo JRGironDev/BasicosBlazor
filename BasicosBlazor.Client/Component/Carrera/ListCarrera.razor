@@ -1,0 +1,41 @@
+﻿@using BasicosBlazor.Library
+
+@if (lista is null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id Carrera</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (CarreraCLS carrera in lista)
+            {
+                <tr>
+                    <td>@carrera.idcarrera</td>
+                    <td>@carrera.nombrecarrera</td>
+                    <td>@carrera.descripcioncarrera</td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="(()=> eliminar(carrera.idcarrera))">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public List<CarreraCLS> lista { get; set; }
+
+    public async Task eliminar(int idcarrera)
+    {
+
+    }
+}

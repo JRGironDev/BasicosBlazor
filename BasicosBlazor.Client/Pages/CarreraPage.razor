@@ -8,35 +8,7 @@
 
 <FormCarrera OnGuardar="guardar" />
 
-@if (listacarrera is null)
-{
-    <p>Cargando...</p>
-}
-else
-{
-    <table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Id Carrera</th>
-            <th>Nombre</th>
-            <th>Descripcion</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (CarreraCLS carrera in listacarrera)
-            {
-                <tr>
-                    <td>@carrera.idcarrera</td>
-                    <td>@carrera.nombrecarrera</td>
-                    <td>@carrera.descripcioncarrera</td>
-                    <td>
-                        <button class="btn btn-danger" @onclick="(()=> eliminar(carrera.idcarrera))">Eliminar</button>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+<ListCarrera lista="@listacarrera"/>
 
 @code {
     //public CarreraCLS oCarreraCLS { get; set; } = new CarreraCLS();
